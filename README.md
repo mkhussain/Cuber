@@ -3,8 +3,10 @@
 # This cuber app developed with vanilla js and svg without using any other plugins.
 
 
-Algorithm 1: Alogorithm I have implemented to find the car
+Algorithm 1: To find the nearest car
 ----------------------------------------------------------
+
+We can find the nearest car by looping the all values and get the distance of the car but this is not a optimal procedures. But I have given another one apporach to find the nearest car.
 
 Storing the values
 ------------------
@@ -42,7 +44,6 @@ If user wants to go Area1 to Area9. Like what I did for the car, same thing made
 Lets consider the above diagram 0 is the position where user give the areaname. I am seaching cars in 9 places From top left a00 , a01 , a02 , a10 , 0 ,a11 , a20 , a21 , a22 all values converted like `carsPositions` method's name and searching on carsPositions.
 
 
-This Alogorithm because if we have N number of car but car is availabe near the location so I have tried this Alogorithm.
 
 
 
