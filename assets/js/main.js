@@ -254,8 +254,16 @@ function rideNow()
     //checking the distance between two coordinate
     function checkDistance(x1,y1,x2,y2)
     {   
-        var ma = Math.sqrt((parseFloat(x1)-parseFloat(x2))**2+(parseFloat(y1)-parseFloat(y2))**2);
-        return ma;
+        
+        var 	xs = x2 - x1,
+        ys = y2 - y1;		
+
+        xs *= xs;
+        ys *= ys;
+
+        return Math.sqrt( xs + ys );
+        // var ma = Math.sqrt((parseFloat(x1)-parseFloat(x2))^2+(parseFloat(y1)-parseFloat(y2))^2);
+        // return ma;
     }
 
     //it will draw the path to go and it will trigger the driving
