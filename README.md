@@ -71,5 +71,4 @@ I have made the graph in svg so I have the x1,x2,y1,y2 points so I have used the
 
        distance = sqrt((x2-x1)^2+(y2-y1)^2)
 
-then no need use the pythogorous theorum to find the distance of the car because I am in svg I know the point.
 
