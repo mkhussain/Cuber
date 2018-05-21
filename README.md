@@ -6,7 +6,7 @@
 Algorithm 1: To find the nearest car
 ----------------------------------------------------------
 
-We can find the nearest car by looping the all values and get the distance of the car but this is not a optimal procedures. But I have given another one apporach to find the nearest car.
+We can find the nearest car by looping the all car's values and get the distance of the car, but this is not a optimal procedures. But I have given another one apporach to find the nearest car.
 
 Storing the values
 ------------------
