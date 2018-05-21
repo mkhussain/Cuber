@@ -3,10 +3,8 @@
 # This cuber app developed with vanilla js and svg without using any other plugins.
 
 
-------------------------------Algorithm 1 Start----------------------------------------------
-
-                Algorithm 1: Alogorithm I have implemented to find the car
-                ----------------------------------------------------------
+Algorithm 1: Alogorithm I have implemented to find the car
+----------------------------------------------------------
 
 Storing the values
 ------------------
@@ -44,20 +42,15 @@ If user wants to go Area1 to Area9. Like what I did for the car, same thing made
 Lets consider the above diagram 0 is the position where user give the areaname. I am seaching cars in 9 places From top left a00 , a01 , a02 , a10 , 0 ,a11 , a20 , a21 , a22 all values converted like `carsPositions` method's name and searching on carsPositions.
 
 
-              This Alogorithm because if we have N number of car but car is availabe near the location so I have tried this Alogorithm.
-
-
-
-------------------------------Algorithm 1 END----------------------------------------------
+This Alogorithm because if we have N number of car but car is availabe near the location so I have tried this Alogorithm.
 
 
 
 
 
-------------------------------Algorithm 2 Start----------------------------------------------
 
-                Algorithm 2: Moving car Start position to End position 
-                -------------------------------------------------------
+Algorithm 2: Moving car Start position to End position 
+-------------------------------------------------------
 
 I am having the x1,y1 position and x2,y2 position and drawn the line for the points. Now the task is we have to move the car on that line.
 So I have used the following formula
@@ -65,14 +58,13 @@ So I have used the following formula
 
                        Y-y1 = ((y2-y1)/(x2-x1)) * X - x1
 
-------------------------------Algorithm 2 End----------------------------------------------
 
 
 
 
-------------------------------Algorithm 3 Start----------------------------------------------
-                Algorithm 3: Find the distance between two points 
-                -------------------------------------------------
+
+Algorithm 3: Find the distance between two points 
+-------------------------------------------------
 
 
 I have made the graph in svg so I have the x1,x2,y1,y2 points so I have used the distance formula 
@@ -81,4 +73,3 @@ I have made the graph in svg so I have the x1,x2,y1,y2 points so I have used the
 
 then no need use the pythogorous theorum to find the distance of the car because I am in svg I know the point.
 
-------------------------------Algorithm 3 End----------------------------------------------
