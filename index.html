@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fuber Book your Taxi</title>
+<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+</head> 
+
+<body>
+<div id='leftPanel'>
+    <div id='buttonPanel'>
+        <h2 id="customer">Customer 1</h2>
+        <div class='top10'>
+            <label for='from'>From</label>
+            <select id='fromArea'></select>
+        </div>
+        <div class='top10'>
+                <label for='to'>To</label>
+                <select id='toArea'></select>
+        </div>
+        
+        <div class='top10'>
+            <label for='type'>Type</label>
+            <select id='type'><option value='normal'>Normal</option><option value='premium'>Premium</option></select>
+        </div>
+        
+        <div>
+            <button onclick="rideNow()">Start Ride</button>
+        </div>
+    </div>
+    <div id='statusOfCar'></div>
+</div>
+<div id='mapDiv'>
+    <svg id='mapArea'>
+    </svg>
+
+
+</div>
+<script src='assets/js/main.js'></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

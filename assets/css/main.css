@@ -1,0 +1,113 @@
+* {
+    box-sizing:border-box;
+  }
+
+body
+{
+    margin:0 auto;
+    font-family:  Arial, sans-serif;
+    background: white;
+}
+  
+#leftPanel
+{
+    float: left;
+    background:#0b5394;
+    width:25%;
+    height:680px;
+    margin-top:0;
+    overflow: auto;
+}
+
+label
+{
+    display: inline-block;
+    width:20%;
+    color: white;
+}
+
+.top10
+{
+    padding-top:2%;
+    padding-left:2%;
+}
+
+input{
+
+    width:70%;
+    border:2px solid #c8c9cc;
+    height:30px;
+}
+
+#mapDiv
+{
+width:75%;
+height:100%;
+float:left;
+}
+
+#mapArea
+{
+width:1000px;
+height:680px;
+background:#f1f1f1;
+
+}
+.notification
+{
+padding:10px;
+position: absolute;
+top:10px;
+background: white;
+right:100px;
+border:2px solid #4a4a4a;
+}
+#buttonPanel
+{
+
+    position: relative;
+}
+#buttonPanel button
+{
+    padding:10px;
+    position: absolute;
+    top: 60px;
+    margin-left:50%;
+
+}
+#customer
+{
+
+    margin-left: 40px;
+    color:white;
+
+}
+.customers
+{
+    width:100%;
+    padding: 5px;
+    background:white;
+    border:1px solid whitesmoke;
+    margin-top:5px;
+}
+.customers h4{
+    margin:0 auto;
+    padding-top:5px;
+}
+.customers h2{
+
+    background:#767676;
+    color:white;
+    margin:0 auto;
+    padding: 5px;
+}
+.error
+{
+    color:red;
+}
+
+#statusOfCar
+{
+ margin-top:30px;
+
+}
